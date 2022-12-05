@@ -1,0 +1,62 @@
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --primary-backgraund-color: #ffffff;
+  --seconadary-background-color: #2f303a;
+  --white-text-color: #ffffff;
+  --main-theme-color: #2196f3;
+  --black-logo-color: #000000;
+  --footer-text-color: rgba(255, 255, 255, 0.6);
+  --secondary-background-color: #f5f4fa;
+  --border-color: #ececec;
+  --footer-social-media-icon: rgba(255, 255, 255, 0.1);
+  --icon-color: #afb1b8;
+  --mobile: 480px;
+  --tablet: 768px;
+  --desktop: 1200px;
+}
+
+.h1 {
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 1.36;
+  margin: auto;
+  margin-bottom: 30px;
+}
+@media (min-width: 1200px) {
+  .h1 {
+    margin: 0 237px 30px 237px;
+    font-size: 44px;
+  }
+}
+
+.h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  margin-bottom: 50px;
+}
+.h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.17;
+  margin-top: 10px;
+}
+.h4 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.17;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.h5 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  margin-top: 20px;
+  margin-bottom: 4px;
+}
+.h1,
+.h2 {
+  text-align: center;
+}

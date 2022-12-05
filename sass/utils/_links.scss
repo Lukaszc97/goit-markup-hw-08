@@ -1,0 +1,18 @@
+
+.link a {
+  
+  text-decoration: none;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:link {
+    text-decoration: none;
+    color: unset;
+  }
+  &:visited {
+    color: unset;
+  }
+}
+.link a:hover,
+.link a:focus,
+.link a:active {
+  color: var(--main-theme-color);
+}
