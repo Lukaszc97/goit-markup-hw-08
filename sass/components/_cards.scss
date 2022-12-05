@@ -15,14 +15,8 @@
     margin-bottom: 30px;
   }
 }
-@media (min-width: 480px) {
-  .cards {
-    width: 100%vw;
-    &__icon {
-      width: 100%vw;
-    }
-  }
-}
+
+
 @media (min-width: 768px) {
   .cards {
     &__content {
