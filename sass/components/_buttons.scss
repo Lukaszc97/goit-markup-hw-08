@@ -26,10 +26,10 @@
   margin-left: 24px;
   cursor: pointer;
 }
-@media(min-width:1200px)
-{.mobile__nav-btn{
-  display: none;}
-
+@media (min-width: 768px) {
+  .mobile__nav-btn {
+    display: none;
+  }
 }
 
 /* modal */
